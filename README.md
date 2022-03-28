@@ -8,7 +8,14 @@ An example of tentacle that follows player's mouse:
 ```java
 Tentacle tentacle;
 
-//Run this part one time to create the tentacle.
+/* Run this part one time to create the tentacle. 
+/* Tentacle is a collection of segments. 
+ * player.getEyeLocation(): Starting location of the tentacle.
+ * 10: Length of the tentacle.
+ * 100: Segment amount of the particle. 
+ * (We have 100 segments, so the tentacle will have 99 joints.)
+ * 1: Particle amount of each segment.
+ * DustOptions: Color and size of each segment particle. */
 this.tentacle = new Tentacle(player.getEyeLocation(), 10, 100, 1, new DustOptions(Color.RED, 0.35F));
 //Disable attachment to the start location so it can move.
 this.tentacle.setAttached(false);
