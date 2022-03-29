@@ -12,7 +12,7 @@ Tentacle tentacle;
 /* Tentacle is a collection of segments. 
  * player.getEyeLocation(): Starting location of the tentacle.
  * 10: Length of the tentacle.
- * 100: Segment amount of the particle. 
+ * 100: Segment amount of the tentacle. 
  * (We have 100 segments, so the tentacle will have 99 joints.)
  * 1: Particle amount of each segment.
  * DustOptions: Color and size of each segment particle. */
