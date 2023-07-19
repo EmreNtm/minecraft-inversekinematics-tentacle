@@ -35,3 +35,4 @@ this.tentacle.display();
 
 This is an ability i am currently working on which uses tentacle code to create waterbending arms:
 ![](https://github.com/EmreNtm/minecraft-inversekinematics-tentacle/blob/main/waterlimbs-example.gif)
+![](https://github.com/EmreNtm/minecraft-inversekinematics-tentacle/blob/main/minghua.png)
