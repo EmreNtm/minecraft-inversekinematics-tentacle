@@ -5,10 +5,12 @@ https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.3_Inver
 https://www.youtube.com/watch?v=hbgDqyy8bIw <br> <br>
 
 An example of tentacle that follows player's mouse:
+![](https://github.com/EmreNtm/minecraft-inversekinematics-tentacle/blob/main/tentacle-example.gif)
+
 ```java
 Tentacle tentacle;
 
-/* Run this part one time to create the tentacle. 
+// Run this part one time to create the tentacle. 
 /* Tentacle is a collection of segments. 
  * player.getEyeLocation(): Starting location of the tentacle.
  * 10: Length of the tentacle.
