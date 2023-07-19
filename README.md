@@ -15,8 +15,10 @@ Tentacle tentacle;
  * 100: Segment amount of the tentacle. 
  * (We have 100 segments, so the tentacle will have 99 joints.)
  * 1: Particle amount of each segment.
- * DustOptions: Color and size of each segment particle. */
-this.tentacle = new Tentacle(player.getEyeLocation(), 10, 100, 1, new DustOptions(Color.RED, 0.35F));
+ * Color.RED: Color of each segment particle.
+ * 0.35f: Size of the first tentacle particle.
+ * 0.35f: Size of the end tentacle particle. */
+this.tentacle = new Tentacle(player.getEyeLocation(), 10, 100, 1, Color.RED, 0.35f, 0.35f);
 //Disable attachment to the start location so it can move.
 this.tentacle.setAttached(false);
 ```
