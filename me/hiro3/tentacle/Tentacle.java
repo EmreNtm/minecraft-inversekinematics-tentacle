@@ -1,4 +1,4 @@
-package me.hiro3.waterlimbs.tentacle;
+package me.hiro3.tentacle;
 
 import org.bukkit.Color;
 import org.bukkit.Location;
