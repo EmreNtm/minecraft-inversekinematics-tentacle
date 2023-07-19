@@ -32,3 +32,6 @@ this.tentacle.reach(player.getEyeLocation().add(player.getLocation().getDirectio
 //Draw the tentacle to the world.
 this.tentacle.display();
 ```
+
+This is an ability i am currently working on which uses this tentacle code to create waterbending amrs:
+![](https://github.com/EmreNtm/minecraft-inversekinematics-tentacle/blob/main/waterlimbs-example.gif)
